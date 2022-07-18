@@ -4,7 +4,8 @@ This is the official implementation of "Global-local Motion Transformer for Unsu
 
 
 
-![framework](figures\framework.png)
+
+![framework](https://github.com/Boeun-Kim/GL-Transformer/blob/main/figures/framework.jpg)
 
 
 
@@ -53,7 +54,7 @@ pip install -r requirements.txt
    python preprocess_ntu.py
    ```
 
-   ​
+ 
 
 ## Unsupervised Pretraining
 
