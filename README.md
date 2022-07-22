@@ -128,3 +128,12 @@ Thanks to the great resources.
 
 Please cite our work if you find it useful.
 
+```
+@article{kim2022global,
+  title={Global-local Motion Transformer for Unsupervised Skeleton-based Action Learning},
+  author={Kim, Boeun and Chang, Hyung Jin and Kim, Jungho and Choi, Jin Young},
+  journal={arXiv e-prints},
+  pages={arXiv--2207},
+  year={2022}
+}
+```
