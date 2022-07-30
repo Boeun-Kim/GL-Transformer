@@ -1,6 +1,6 @@
 # GL-Transformer (ECCV 2022)
 
-This is the official implementation of "Global-local Motion Transformer for Unsupervised Skeleton-based Action Learning (ECCV 2022)". [[paper]](https://arxiv.org/abs/2207.06101)
+This is the official implementation of "Global-local Motion Transformer for Unsupervised Skeleton-based Action Learning (ECCV 2022)". [[paper]](https://arxiv.org/abs/2207.06101)[[project]](https://boeun-kim.github.io/)
 
 
 
