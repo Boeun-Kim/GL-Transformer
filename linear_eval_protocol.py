@@ -77,9 +77,9 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if __name__ == '__main__':
 
     args = parse_args_actionrecog()
-    f=open(args.save_path+'.txt', 'w')
     os.makedirs(args.save_path, exist_ok=True)
-
+    f=open(args.save_path+'.txt', 'w')
+    
     loader = load_data(is_train=True, data_path=args.train_data_path,label_path=args.train_label_path, batch_size=args.batch_size, num_workers=args.num_workers,
                         shear_amplitude=args.shear_amplitude, interpolate_ratio=args.interpolate_ratio)
     eval_loader = load_data(is_train=False, data_path=args.eval_data_path, label_path=args.eval_label_path, batch_size=args.batch_size, num_workers=args.num_workers,
