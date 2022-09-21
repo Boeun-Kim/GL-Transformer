@@ -41,8 +41,9 @@ def interpolate(data_numpy, interpolate_ratio=0.0):
     new_data = np.zeros((C, interpolate_size, V, M))
 
     for i in range(M):
-        tmp = cv2.resize(data_numpy[:, :, :, i].transpose(
-            [1, 2, 0]), (V, interpolate_size), interpolation=cv2.INTER_LINEAR)
+        if data_numpy.shape[1] > 0:
+            tmp = cv2.resize(data_numpy[:, :, :, i].transpose(
+                [1, 2, 0]), (V, interpolate_size), interpolation=cv2.INTER_LINEAR)
 
         tmp = tmp.transpose([2, 0, 1])
 
