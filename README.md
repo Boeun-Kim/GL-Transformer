@@ -129,11 +129,12 @@ Thanks to the great resources.
 Please cite our work if you find it useful.
 
 ```
-@article{kim2022global,
-  title={Global-local Motion Transformer for Unsupervised Skeleton-based Action Learning},
+@inproceedings{kim2022global,
+  title={Global-local motion transformer for unsupervised skeleton-based action learning},
   author={Kim, Boeun and Chang, Hyung Jin and Kim, Jungho and Choi, Jin Young},
-  journal={arXiv e-prints},
-  pages={arXiv--2207},
-  year={2022}
+  booktitle={Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part IV},
+  pages={209--225},
+  year={2022},
+  organization={Springer}
 }
 ```
