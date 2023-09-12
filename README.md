@@ -73,7 +73,7 @@ python learn_PTmodel.py \
 
 Pretraining weights (weights-ntu*) can be downloaded via 
 
-https://drive.google.com/drive/folders/10-UZ9BaijCJZZkB2R5rBxmj5cgXmRJ2E?usp=sharing
+https://drive.google.com/drive/folders/1ND2d1foX2nPkwbi0k7hGZCV3SXZxXp92?usp=drive_link
 
 
 
@@ -94,7 +94,7 @@ python linear_eval_protocol.py \
 
 Pretraining weights (w_classifier-ntu*) can be downloaded via 
 
-https://drive.google.com/drive/folders/10-UZ9BaijCJZZkB2R5rBxmj5cgXmRJ2E?usp=sharing
+https://drive.google.com/drive/folders/1tbusXBFSoppX9Ug3O2kHT2JKxVG2Ykjo?usp=drive_link
 
 Those files include weights of "GL_Transformer + linear classifier".
 
